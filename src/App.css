@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+.userDetails {
+  background-color: salmon;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
