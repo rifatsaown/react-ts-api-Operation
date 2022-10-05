@@ -2,8 +2,8 @@
   text-align: center;
 }
 .userDetails {
-  background-color: salmon;
+  background-color: rgba(107, 82, 79, 0.532);
   border-radius: 20px;
   padding: 10px;
-  margin: 10px;
+  margin: 30px;
 }
