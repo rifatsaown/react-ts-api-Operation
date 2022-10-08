@@ -21,7 +21,7 @@ function App() {
   <div className="App">
     <h2>User Load : {user.length}</h2>
     {
-      user.map((user:iUser) => <User name={user.name} email={user.email} phone={user.phone} key={user.id}></User>)
+      user.map((user:iUser)=> <User name={user.name} email={user.email} phone={user.phone} key={user.id}></User>)
     }
   </div>
   )
