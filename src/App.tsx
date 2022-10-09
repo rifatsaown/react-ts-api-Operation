@@ -26,17 +26,20 @@ function App() {
           email={user.email}
           phone={user.phone}
           key={user.id}
+          id={user.id}
         ></User>
       ))}
     </div>
   );
 }
-const User = ({ name, email, phone }: iUser) => {
+const User = ({ name, email,id, phone }: iUser) => {
   return (
     <div className="userDetails">
+      <p>{id}</p>
       <h3>{name}</h3>
       <p>{email}</p>
       <p>{phone}</p>
+
     </div>
   );
 };
