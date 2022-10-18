@@ -6,8 +6,7 @@ interface iUser {
   email: string;
   phone: string;
   key?: number;
-  id?: number;
-}
+  id?: number;}
 
 function App() {
   const [user, setUser] = useState([]);
@@ -39,7 +38,6 @@ const User = ({ name, email,id, phone }: iUser) => {
       <h3>{name}</h3>
       <p>{email}</p>
       <p>{phone}</p>
-
     </div>
   );
 };
